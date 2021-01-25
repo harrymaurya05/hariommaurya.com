@@ -1,0 +1,43 @@
+# Site settings
+name: Hariom Maurya
+title: Hariom Maurya | Backend Software Engineer
+description: Full stack software engineer focused on building complex , scaleable projects
+url: https://harrymaurya05.github.io/
+baseurl: ''
+email: harrymaurya05@gmail.com
+cover: https://harrymaurya05.github.io/img/og.png
+logo: https://harrymaurya05.github.io/img/emojis/technologist.png
+resume: https://harrymaurya05.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:harrymaurya05@gmail.com
+  - title: twitter
+    url: https://twitter.com/Hariom44374684
+  - title: instagram
+    url: https://www.instagram.com/harrycodex/
+  - title: github
+    url: https://github.com/harrymaurya05
+  - title: linkedin
+    url: https://www.linkedin.com/in/hariom-maurya-267b53111/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
