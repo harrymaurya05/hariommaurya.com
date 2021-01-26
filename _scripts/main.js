@@ -6,11 +6,12 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
-    input.checked = true;
-    body.classList.add('night');
-  }
-
+  // if (night) {
+  //   input.checked = true;
+  //   body.classList.add('night');
+  // }
+  body.classList.add('night');
+  input.checked = true;
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
